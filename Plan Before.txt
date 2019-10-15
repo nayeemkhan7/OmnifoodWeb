@@ -1,0 +1,56 @@
+.plan-box{
+  width: 30%;
+  float: left;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 15px 30px;
+  font-family: 'Lato', sans-serif;
+  background: #fff;
+  border: 1px solid;
+}
+.plan-box:nth-child(2),
+.plan-box:nth-child(3){
+  margin-left: 10px;
+}
+.plan-head{
+  text-align: center;
+}
+.plan-head h4{
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 10px 0 20px;
+}
+.plan-head p{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.plan-head .plan-rate{
+  font-size: 36px;
+  font-weight: 600;
+}
+.plans-area .br-line{
+  border: 1px solid #444;
+}
+.plan-body{
+  margin: 30px 0;
+}
+.plan-body p{
+  font-size: 18px;
+  padding-bottom: 15px;
+}
+.plan-body .fa{
+  font-size: 20px;
+  margin-right: 20px;
+  color: #2d8364;
+}
+.plan-box .btn-plan{
+  margin-bottom: 20px;
+  margin-left: 24%;
+  padding: 10px 22px;
+  background: transparent;
+  border: 2px solid #008882;
+  border-radius: 4px;
+  color: #111;
+  font-size: 16px;
+  text-transform: uppercase;
+}
