@@ -16,7 +16,9 @@
 ul li{
   list-style: none;
 }
-html{}
+html{
+  scroll-behavior: smooth;
+}
 body{
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
@@ -145,13 +147,14 @@ header{
   box-sizing: border-box;
   width: 23%;
   height: 400px;
-  margin-left: 2%;
+  margin-right: 1%;
+  margin-left: 1%;
   float: left;
   background: #fff;
   border-radius: 2px;
 }
 .delivery-box:first-child{
-  margin-left: 0;
+  margin-left: ;
 }
 .delivery-top{
   margin: 20px 0;
@@ -162,10 +165,13 @@ header{
 }
 .delivery-box h4{
   margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
 }
 .delivery-box p{
   width:90%;
   margin: 0 auto;
+  color: #444;
   font-size: 18px;
   line-height: 1.7;
   margin-bottom: 20px;
@@ -240,7 +246,7 @@ header{
   margin-right: 18px;
 }
 .use-app .apple-app{
-  height: 59px;
+  height: 58px;
 }
 
 /* ==================================== */
@@ -256,6 +262,8 @@ header{
 .cities-area .cities{
   width: 25%;
   float: left;
+  padding-left: 10px;
+  box-sizing: border-box;
 }
 .cities img{}
 .cities h3{
@@ -349,6 +357,7 @@ header{
   font-family: 'Lato', sans-serif;
   position: relative;
   border-radius: 2px;
+  box-shadow: 0px 1px 5px #888;
 }
 .plan-box:nth-child(2){
   margin-right:3%;
@@ -362,13 +371,14 @@ header{
 .plan-head h4{
   text-transform: uppercase;
   font-size: 26px;
-  margin-bottom: 20px;
+  margin: 20px 0 30px;
 }
 .plan-head p{
   font-size: 22px;
 }
 .plan-head .plan-rate{
   font-size: 32px;
+  font-weight: 600;
 }
 .plans-area .br-line{
   border: 1px solid #fff;
@@ -379,12 +389,12 @@ header{
 }
 .plan-body p{
   font-size: 18px;
-  line-height: 40px;
+  line-height: 45px;
 }
 .plan-body .fa{
   color: #2d8364;
-  font-size: 20px;
-  margin-right: 15px;
+  font-size: 22px;
+  margin-right: 12px;
 }
 .plan-box .btn-plan{
   background: transparent;
@@ -418,13 +428,14 @@ header{
 .plan-box-hover .plan-head2 h4{
   text-transform: uppercase;
   font-size: 26px;
-  margin-bottom: 20px;
+  margin: 20px 0 30px;
 }
 .plan-box-hover .plan-head2 p{
   font-size: 22px;
 }
 .plan-box-hover .plan-rate2{
   font-size: 32px;
+  font-weight: 600;
 }
 .plan-box-hover .br-line2{
   border: 1px dashed #ccc;
@@ -435,12 +446,12 @@ header{
 }
 .plan-box-hover .plan-body2 p{
   font-size: 18px;
-  line-height: 40px;
+  line-height: 45px;
 }
 .plan-box-hover .plan-body2 .fa2{
   color: #fff;
-  font-size: 20px;
-  margin-right: 15px;
+  font-size: 22px;
+  margin-right: 12px;
 }
 .plan-box-hover .btn-plan2{
   background: transparent;
@@ -522,7 +533,7 @@ header{
 
 /* ==================================== */
 /* ========== Footer Section ========== */
-/* rgba(0,41,23,0.7) */
+
 footer{
   width: 100%;
   float: left;
@@ -535,19 +546,24 @@ footer{
 .footer-left{
   width: 55%;
   float: left;
+  position: relative;
+  /* Position Relative for Map Icon */
 }
 .footer-right{
   width: 45%;
   float: right;
 }
-.footer-left img{
-  position: relative;
-}
+.footer-left img{}
+
 .footer-left .fa-map-marker{
   position: absolute;
-  color: red;
+  color: #f00;
   float: left;
-  font-size: 25px;
+  font-size: 35px;
+  width: 10px;
+  height: 10px;
+  top: 375px;
+  left: 67px;
 }
 .footer-right .dot{
   display: inline-block;
@@ -592,13 +608,36 @@ footer{
   width: 40px;
   height: 40px;
   line-height: 40px;
-  color: #111;
+  color: #222;
   background: #fff;
   text-align: center;
   border-radius: 50%;
+  transition: 0.3s ease-in;
+}
+.right-down .fa-facebook,
+.right-down .fa-instagram{
+  font-size: 24px;
+}
+.right-down .fa:hover{
+  transform: rotate(360deg);
 }
 
 
 
 
-...
+
+/*
+
+===
+=======
+============
+
+              By:
+
+          Abdullah Al Nayeem
+
+====================================
+===========================================
+=================================================
+
+*/
